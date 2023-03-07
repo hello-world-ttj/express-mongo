@@ -7,6 +7,12 @@ const app = express();
 
 app.use(express.json());
 
+// simple route
+app.get("/", (req, res) => {
+    res.json({ message: "Welcome to bezkoder application." });
+});
+  
+
 app.use('/api',routes)
 
 app.listen(3000, () => {
