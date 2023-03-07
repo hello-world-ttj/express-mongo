@@ -4,8 +4,7 @@
   "description": "learning mongo-express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hello_world.ttj",
   "license": "ISC",

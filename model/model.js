@@ -6,4 +6,4 @@ const dataSchema = new mongoose.Schema({
     course: { type: String }
 })
 
-module.exports = mongoose.model('studentData',dataSchema)
+module.exports = mongoose.model('studentsData',dataSchema)
